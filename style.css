@@ -1,0 +1,72 @@
+body {
+    background-image:  url("https://media.istockphoto.com/id/1148888540/photo/gray-abstract-background.jpg?b=1&s=170667a&w=0&k=20&c=yfa6Tenjs6-V0T3SOiPR0SJCBpnobX5UqVtmz3pkpWg="); ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container, .title, .pointtitle, .buttoncontainer, .textcontainer, .resultcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.grid div {
+    margin: 30px;
+    width: 125px;
+    height: 125px;
+}
+
+.result {
+    margin-top: 50px;
+    width: 125px;
+    height: 125px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+#heads:hover {
+    box-shadow: 2px 2px 2px olive;
+}
+
+#tails:hover {
+    box-shadow: 2px 2px 2px teal;
+}
+
+.headstext {
+    -webkit-text-stroke: 1px olive;
+}
+
+.tailstext {
+    -webkit-text-stroke: 1px teal;
+}
+
+.winorlose {
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.resetbutton {
+    border: 2px ridge black;
+    background-color: #ff5033;
+    color: azure;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 80px;
+    box-shadow: 5px 2px 2px black;
+}
+
+.resetbutton:hover {
+    cursor: pointer;
+}
